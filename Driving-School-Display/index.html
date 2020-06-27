@@ -6,13 +6,13 @@
     <title>Driving School Display</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body dir="rtl">
     <h1>בתי ספר לנהיגה</h1>
     <form id="serachSchool">
-        <button type="button" id="searchBtn">חפש</button>
         <label> 
-            <input type="text"> :חיפוש לפי שם או עיר
+            חיפוש לפי שם או עיר: <input type="text">
         </label>
+        <button type="button" id="searchBtn">חפש</button>
     </form>
     <table border="1px">
         <thead>
@@ -24,6 +24,9 @@
                 <td>שם המנהל</td>
             </tr>
         </thead>
+        <tbody id="drivingSchoolRow">
+
+        </tbody>
     </table>
     <script src="script.js"></script>
 </body>
