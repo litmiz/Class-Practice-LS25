@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
